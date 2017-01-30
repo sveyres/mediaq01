@@ -23,6 +23,9 @@ ul{
 
 li{
     display: inline-block;
+    background-color: grey;
+    width: 23%;
+    margin: 0;
 
 }
 main{
@@ -50,7 +53,4 @@ article{
 article img{
     width: 100%;
     height: auto;
-}
-@@media screen and {
-
 }
