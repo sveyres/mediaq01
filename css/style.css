@@ -42,13 +42,15 @@ aside{
 }
 
 article{
-    width: 32%;
+    width: 31%;
     display: inline-block;
     margin-left: 0.5em;
-
-
+    vertical-align: top;
 }
-
+article img{
+    width: 100%;
+    height: auto;
+}
 @@media screen and {
 
 }

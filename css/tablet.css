@@ -1,22 +1,25 @@
-@media all and (min-width:400px)and(max-width:900px){
+@media screen and (min-width: 400px) and (max-width: 900px){
+    body{
+        margin:0;
+    }
     article{
-        width:auto;
+        display: inline-block;
+    }
+    p{
+        overflow: auto;
     }
 
-    li{
-        width: 100%;
-    }
     body{
         width: 100%;
         background-color: red;
-
     }
     main{
         width: 100%;
         float: none;
-    margin: 0.5em;
+        margin: 0;
     }
     aside{
         width: 100%;
         float: none;
+        margin: 0;
     }
