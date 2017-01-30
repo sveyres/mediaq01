@@ -13,17 +13,21 @@ header{
     background-color: #ffffff;
     padding: 1em;
     margin: 0.5em;
+
 }
 ul{
     text-align: center;
+
+
 }
 
 li{
     display: inline-block;
+
 }
 main{
     background-color: #ffffff;
-    width: 60%;
+    width: 80%;
     float: left;
     padding: 1em;
     margin: 0.5em;
@@ -31,28 +35,20 @@ main{
 
 aside{
     background-color: #ffffff;
-    width: 35%;
+    width: 15%;
     float: right;
     padding: 1em;
     margin: 0.5em;
 }
 
+article{
+    width: 32%;
+    display: inline-block;
+    margin-left: 0.5em;
 
-@media(max-width:400px){
-    li{
-        width: 100%;
-    }
-    body{
-        width: 100%;
 
-    }
-    main{
-        width: 100%;
-        float: none;
-    margin: 0.5em;
-    }
-    aside{
-        width: 100%;
-        float: none;
-    }
+}
+
+@@media screen and {
+
 }

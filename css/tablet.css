@@ -1,0 +1,22 @@
+@media all and (min-width:400px)and(max-width:900px){
+    article{
+        width:auto;
+    }
+
+    li{
+        width: 100%;
+    }
+    body{
+        width: 100%;
+        background-color: red;
+
+    }
+    main{
+        width: 100%;
+        float: none;
+    margin: 0.5em;
+    }
+    aside{
+        width: 100%;
+        float: none;
+    }
